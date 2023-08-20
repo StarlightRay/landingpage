@@ -1,0 +1,215 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width: 768px) {
+        font-size: 36px; /* Adjust this value as needed */
+  }
+}
+
+.header {
+    background-color: #1F2937;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    padding:10px;
+    align-items: center;
+}
+
+.right-links {
+    display:flex;
+    align-items: center;
+    gap:5px;
+}
+
+.firstcontainer {
+    background-color: #1F2937;
+    display:flex;
+    flex-direction: row;
+    padding:20px;
+    flex-wrap:wrap;
+}
+
+.textcontainer{
+    flex:1;
+    padding:20px;
+    
+}
+
+.imagecontainer{
+    display:flex;
+    flex:1; /*takes up half the space*/
+    padding:20px;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight:bold;
+    color:#F9FAF8;
+}
+
+.herosub {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 10px;
+}
+
+  .image-content img {
+    max-width: 100%;
+    max-height: 100%;
+    /* width: auto; Make the image width 100% of the image-content */
+    /* height: auto; Make the image height 100% of the image-content */
+    object-fit: contain; /* Maintain aspect ratio and cover the container */
+  }
+
+.signup{
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    margin-top: 15px;
+}
+
+li {
+  list-style:none;
+  margin-right: 10px;
+}
+
+a {
+    text-decoration: none; /* Remove underlines */
+    color: grey; /* Set link color */
+  }
+
+  button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+  .about-us-image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F9FAF8;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+
+.about-us-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .about-us-image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 10px;
+    aspect-ratio: 1 / 1;
+  }
+  
+
+.text {
+    max-width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px; /* Add padding to separate text from images */
+}
+
+.aboutus {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    margin-top: 32px;
+    text-align:center;
+}
+
+.quote-container {
+    padding: 50px;
+    margin: 20px auto;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 20px; /* Add gap between items */
+    align-items: center; /* Center items horizontally */
+    justify-content: space-evenly; /* Center items vertically */
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 95%; /* Take up 50% of container width */
+    padding: 0 2.5%; /* Add 25% spacing on the left and right */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.quote-person {
+    font: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+}
+
+.action-container {
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6; /* Apply blue background to the entire container */
+    border-radius: 20px;
+    max-width: 800px; /* Limit the maximum width of the container */
+}
+
+.action-left, .action-right {
+    padding: 30px;
+    text-align: left;
+    color: white;
+    margin-top: 15px;
+}
+
+.action-header {
+    font-size: 24px;
+    color: white; /* Adjust text color */
+    
+}
+
+.action-text {
+    font-size: 16px;
+    color: white; /* Adjust text color */
+    margin-top: 10px;
+}
+
+.action-right {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+button.signup {
+    background: #3882f6;
+    border: 2px solid white; /* White border with 2px width */
+    color: white;
+    margin-top: 15px;
+    border-radius: 20px; /* Rounded corners */
+    padding: 12px 24px; /* Adjust the padding for a larger size */
+    cursor: pointer;
+    font-size: 28px; /* Adjust the font size for larger text */
+}
